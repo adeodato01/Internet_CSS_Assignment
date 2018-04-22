@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    height: 787px;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 140px;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header img{
+    position: absolute;
+}
+.headerWhite{
+    height: 80px;
+    background: white;
+    line-height: 95px;
+    color: rgb(71,71,71);
+    font-size: 51px;
+    margin-left: 100px;
+}
+.headerWhite span{
+    color: rgb(38,102,156);
+}
+.headerBlue{
+    height: 60px;
+    background: linear-gradient(rgb(39, 103, 156),rgb(85,133,171),rgb(39, 103, 156));
+    line-height: 60px;
+    color: rgb(255,255,255);
+    font-size: 33px;
+    padding-left: 20px;
+}
+.base{
+    height: 647px;
+    width: 960px;
+    background: linear-gradient(rgb(228,228,228),rgb(255,255,255) 25%);
+}
+.sideBar{
+    height: 647px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+    margin-top: 11px;
+}
+.sideBar a{
+    text-decoration: none;
+}
+.sideBarTop{
+    width: 200px;
+    height: 200px;
+    font-size: 15px; 
+    border-bottom: 1px solid grey;
+    padding-top: 12px;
+}
+.sideBarTop h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+.sideBarTop h3 span{
+    color: rgb(215,38,38)
+}
+.sideBarTop p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 6px;
+    margin-bottom: 22px;
+}
+.sideBarTop p span{
+    color: rgb(38,102,156);
+}
+.btn{
+    width: 190px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    box-shadow: 1px 1px 2px rgb(142,142,142);
+    margin-top: 4px;
+    font-weight: 550;
+}
+.btn-1{
+    background: linear-gradient(rgb(100,153,193), rgb(39,103,157))
+}
+.btn-2{
+    background: linear-gradient(rgb(233,173,94), rgb(238,114,1))
+}
+.dojoAd{
+    height: 282px;
+    width: 200px;
+    margin-top: 24px;
+    text-align: center;
+    background-image: url(images/ad_background.png);
+    padding-top: 18px;
+    box-shadow: 1px 1px 3px rgb(131,131,131);
+    
+}
+.dojoAd img{
+    height:138px;
+    margin-bottom: 10px;
+}
+.dojoAd p{
+    width: 170px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: 520;
+    margin-right: auto;
+    margin-left: auto;
+}
+.innerBody{
+    height: 647px;
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 37px;
+}
+.learnMore{
+    width: 170px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px rgb(40,40,40);
+    font-weight: 550;
+    background: linear-gradient(rgb(126,209,222), rgb(1,193,221));
+    line-height: 31px;
+}
+.innerTop{
+    width: 700px;
+    height: 56px;
+    border-bottom: 1px solid grey;
+}
+.dns{
+    height: 20px;
+    width: 60px;
+    display: inline-block;
+    color: rgb(38,102,156);
+    margin-top: 7px;
+    margin-right: 435px;
+}
+.dns img, .dns p{
+    display: inline-block;
+}
+.contactNumbers{
+    height: 55px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-top: 2px;
+}
+.contactNumbers img{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+.phoneNum{
+    height: 50px;
+    width: 127px;
+    margin-right: 0px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+.phoneNum p{
+    color: rgb(88,88,88);
+    font-size: 9px;
+}
+.phoneNum span{
+    color: rgb(0,192,221);
+    font-size: 21px;
+    font-weight: 600;
+}
+.innerMid{
+    width: 700px;
+    height: 455px;
+}
+.innerMid p, .innerMid li, .innerBottom p{
+    margin-bottom: 7px;
+    font-size: 14.25px;
+}
+.innerMid img{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 7px;
+}
+.brightB, .innerBottom a{
+    color: rgb(3,151,173);
+    text-decoration: none;
+}
+.hdB{
+    color: rgb(38,102,156);
+    font-weight: 600;
+    font-size: 20px;
+}
+li{
+    margin-left: 39px;
+}
+.black{
+    font-weight: bold;
+}
+.innerBottom{
+    width: 690px;
+    height: 130px;
+    border-width: 5px 5px 0px 5px;
+    border-color: rgb(0,135,221);
+    border-style: solid;
+    box-shadow: 1px 1px 2px 0px rgb(125,125,125);
+}
+.innerBottom img{
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13px;
+    margin-left: 14px;
+}
+.bottomText{
+    display: inline-block;
+    vertical-align: top;
+    width: 535px;
+    height: 115px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+.italics{
+    font-style: italic;
+}
+.lightest{
+    opacity: 0.5;
+}
+.light{
+    opacity: 0.7;
+}
